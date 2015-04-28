@@ -10,10 +10,10 @@
 
 **OpentactSDKDemo/AppDelegate.m**
 
-    self.ssid = @"553d9f281073e94661fce8b1";  // your subaccount sid
+    self.ssid = @"553d9f281073e94661fce8b1";  // your Sub Account SID
 
     OpentactSDK *sdk = [OpentactSDK sharedOpentactSDK];
-    [sdk setSid:@"553d9e6d1073e9455be0b30e"   // your app sid
+    [sdk setSid:@"553d9e6d1073e9455be0b30e"   // your SID
                  andSsid:self.ssid
             andAuthToken:@"cb1f04160faa4ccbb8b368aebbd2a873"]  // your AuthToken
 
