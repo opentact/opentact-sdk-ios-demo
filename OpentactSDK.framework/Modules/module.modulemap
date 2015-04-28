@@ -1,0 +1,6 @@
+framework module OpentactSDK {
+  umbrella header "OpentactSDK.h"
+
+  export *
+  module * { export * }
+}
